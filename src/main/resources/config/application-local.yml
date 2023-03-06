@@ -1,0 +1,14 @@
+logging:
+  level:
+    web: debug
+    root: debug
+
+test:
+  message: Hello from local
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true

@@ -1,0 +1,14 @@
+logging:
+  level:
+    web: info
+    root: info
+
+test:
+  message: Hello from dev
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
